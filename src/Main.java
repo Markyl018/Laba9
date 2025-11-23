@@ -1,7 +1,24 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 class Main{
-    public static void main(String[] args){
+    static void main(String[] args){
+        Dog John = new Dog("John", 60, 20, "Black");
 
+        Cat Andrew = new Cat("Andrew", 30, 8, "Grey");
+
+        Cow Martha = new Cow("Martha", 150, 300, "white-brown");
+
+        John.makeSound();
+        John.eat();
+        John.sleep();
+        John.infoOut();
+
+        Andrew.makeSound();
+        Andrew.eat();
+        Andrew.sleep();
+        Andrew.infoOut();
+
+        Martha.makeSound();
+        Martha.eat();
+        Martha.sleep();
+        Martha.infoOut();
     }
 }
