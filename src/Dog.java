@@ -1,4 +1,3 @@
-import java.security.spec.RSAOtherPrimeInfo;
 
 public class Dog extends Animal{
     Dog(String _name, int _height, int _weight, String _color){
